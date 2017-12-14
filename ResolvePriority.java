@@ -117,7 +117,7 @@ public class ResolvePriority extends ActualMath
     try
     {
       next = (Double) list.get(num + 1).get("type");
-      if (next == 1 || next == 2 || next == 10)
+      if (next == 1 || next == 2)
       {
         System.out.println("next: " + next);
         list.add(num + 1, Node.Nodee(42, 4)); // *

@@ -93,7 +93,7 @@ public class Calculator extends Application
 
     primaryStage.setResizable(false);
     primaryStage.setFullScreen(false);
-    primaryStage.initStyle(StageStyle.UTILITY);
+    //primaryStage.initStyle(StageStyle.UTILITY);
     primaryStage.setScene(scene1);
     primaryStage.setTitle("Calculator");
     primaryStage.show();
