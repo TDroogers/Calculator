@@ -125,7 +125,7 @@ public class ResolvePriority extends ActualMath
     }
     catch (IndexOutOfBoundsException E)
     {
-      // No need
+      System.out.println("Error hookClose(): " + E);
     }
     
     
@@ -146,7 +146,6 @@ public class ResolvePriority extends ActualMath
 
   private  void startHookSet()
   {
-    // System.out.println("map: " + l);
     if (addEnt == false)
     {
       // insert ( after previeus

@@ -15,7 +15,7 @@ import javafx.scene.control.TextField;
 import javafx.scene.layout.GridPane;
 import javafx.scene.layout.Region;
 import javafx.stage.Stage;
-import javafx.stage.StageStyle;
+// import javafx.stage.StageStyle;
 
 public class Calculator extends Application
 {
@@ -65,8 +65,6 @@ public class Calculator extends Application
       int c = (e.getCharacter().toCharArray())[0];
       int pos = text1.getCaretPosition();
       objList.keyPressed(c, text1.getCaretPosition());
-      // System.out.println(e.getCharacter() + ": " + c + " : " + pos);
-      // objList.getMap();
       objList.getString(text1);
       text1.positionCaret(pos);
     });
@@ -179,7 +177,6 @@ public class Calculator extends Application
     while (true)
     {
       String timeStamp = sdf.format(new Date());
-      // System.out.println("Hello from a thread! " + timeStamp);
       Platform.runLater(new Runnable()
       {
         @Override public void run()

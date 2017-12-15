@@ -7,7 +7,6 @@ public class ResolveBase
 {
 
   protected static Map<Integer, Integer> pri;
-  // protected static Map<String, Integer> prio;
 
   protected static void priorityRules()
   {
@@ -24,7 +23,6 @@ public class ResolveBase
     pri.put(42, 4);// *
     pri.put(40, 10);// (
     pri.put(41, 10);// )
-    // pri.put(61, 10);// =
   }
 
   protected static class Node

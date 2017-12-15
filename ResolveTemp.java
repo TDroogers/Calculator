@@ -37,8 +37,6 @@ public class ResolveTemp extends ActualMath
     System.out.println(hookmax);
     for (int i = hookmax; 0 <= i; i--)
     {
-      // System.out.println("");
-      // System.out.print(i + " Line: ");
       String math = "";
       ch = "";
       for (int num = 0; num < list.size(); num++)
@@ -54,10 +52,8 @@ public class ResolveTemp extends ActualMath
         {
           if (hook == i && math.length() != 0)
           {
-            // System.out.println(math);
             double inbetween = doMathLoop(math);
             list.add(num + 1, Node.Nodee(inbetween, 0));
-            // System.out.println(" ::" + inbetween + ":: ");
             result = inbetween;
             math = "";
             num++;

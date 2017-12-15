@@ -83,7 +83,6 @@ public class ActualMath extends ResolveBase
         result = prev;
         start = false;
       }
-      // System.out.println("operator: " + operator);
       CalcDo(operator);
     }
   }
@@ -130,7 +129,6 @@ public class ActualMath extends ResolveBase
       }
     }
     operator = "";
-    // System.out.println("result: " + result);
   }
 
   private static String CalcNext(String a)
