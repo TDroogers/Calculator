@@ -1,4 +1,4 @@
-package calculator;
+package nl.drogecode.calculator;
 
 import javafx.scene.control.Button;
 import javafx.scene.control.TextField;

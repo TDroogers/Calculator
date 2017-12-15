@@ -1,4 +1,4 @@
-package calculator;
+package nl.drogecode.calculator;
 
 import java.util.LinkedList;
 import java.util.Map;

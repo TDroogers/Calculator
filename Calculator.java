@@ -1,4 +1,4 @@
-package calculator;
+package nl.drogecode.calculator;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;
